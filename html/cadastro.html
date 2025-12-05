@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix - Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">TechFix</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h1>Cadastro de Cliente</h1>
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone/WhatsApp:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <div class="botoes-container">
+            <button type="button" class="btn-laranja" onclick="window.location.href='cadastro.html'">
+                Cadastrar
+            </button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <div>
+        <a href="index.html">Home</a> | 
+        <a href="servicos.html">Serviços</a> | 
+        <a href="sobre.html">Sobre</a> | 
+        <a href="contato.html">Contato</a>
+    </div>
+    <div>
+        <p>Telefone: (11) 90924-8045 | WhatsApp: (11) 92435-7689 | Email: contato@techfix.com</p>
+    </div>
+    <div>
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+    </div>
+</footer>
+
+<script src="../js/cadastro.js"></script>
+</body>
+</html>
 
